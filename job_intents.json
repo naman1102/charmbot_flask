@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi", "sup", "heyo"],
+     "responses": [ "Yebo yes, how can I help", "Ey watsupp", "Hola", "Hey dude" , "I'm doing fine, and you?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Tell me about yourself", "You are"],
+      "responses": ["I am CHARM", "My name is CHARM", "I am CHARM, my friends call me KB", "CHARM is my name"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["YES please!!.., I'm CHARM ,here to assist you...","I can tell you about college", "I can share information about ACROPOLIS INSTITUTE of TECHNOLOGY and RESEARCH"]
+      },
+     {"tag": "eating",
+      "patterns": ["What do you eat","what can you eat"],
+      "responses": ["I don't like eating anything because I'm a bot obviously!"]
+      },
+      {"tag": "advice",
+       "patterns": ["what advice would you give","what is your advice"],
+       "responses": ["If I were you, I would go to the internet and type exactly what you wrote there!"]
+      },
+      {"tag": "country",
+        "patterns": ["what is your country","what country is this","which country do you live in"],
+        "responses": ["My friend, this is India, diversely united"]
+       },
+       {"tag": "dance",
+        "patterns": ["Can you dance","You like to dance","Do you like to dance"],
+        "responses": ["If I were you, I will!"]
+       },
+       {"tag": "college",
+        "patterns": ["What is the name of college","Where am I right now"],
+        "responses": ["Welcome to Acropolis"]
+       },
+       {"tag": "city",
+        "patterns": ["What is the name of the city","Which city do you live in ","In which city do you live"],
+        "responses": [" You are standing in the cleanest city INDORE..."]
+       },
+       {"tag": "campus",
+        "patterns": ["What is the name of the campus","Which campus do you live in ","which campus is this"],
+        "responses": ["This is AITR INDORE campus"]
+       },
+       {"tag": "director",
+        "patterns": ["What is the name of the director","Who is your director ","who is the director of the college"],
+        "responses": ["Mr. Shashi Chandra Sharma"]
+       },
+       {"tag": "placement incharge",
+        "patterns": ["What is the name of the placement incharge","Who is your placement incharge ","who is the placement incharge of the college","who is Mr. Atul Bharat"],
+        "responses": ["Mr. ATUL BHARAT, also the group director CDC, to know more about CDC, ask CHARM charmly :-)"]
+       },
+       {"tag": "companies",
+        "patterns": ["Which companies come here","What are the companies for placement. ","which companies visit here"],
+        "responses": ["Connected to various tech companies TCS, Infosys, Wipro, IBM... By the way ,you will get the company of your choice here.You only need to groom your skillset upto that level..<3"]
+       },
+       {"tag": "chairman",
+        "patterns": ["What is the name of the chairman","Who is your chairman ","who is the chairman of the college"],
+        "responses": ["MR Gaurav Sojatiya"]
+       },
+       {"tag": "home",
+        "patterns": ["Where do you live","Where is your home ","what is your birthplace"],
+        "responses": ["My mansion-:ACROPOLIS INDORE...:-)...!!"]
+       }
+  ]
+}
